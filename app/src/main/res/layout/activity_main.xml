@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="java 调用 c"/>
+
+    <Button
+        android:id="@+id/sayhello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn1" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add" />
+
+    <Button
+        android:onClick="sayHi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sayHi" />
+
+    <Button
+        android:onClick="increaseArrayEles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="increaseArrayEles" />
+
+    <Button
+        android:onClick="checkPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="checkPwd" />
+
+</LinearLayout>
